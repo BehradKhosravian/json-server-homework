@@ -10,7 +10,7 @@ server.use(middlewares);
 
 server.use(router);
 // Listen to port
-server.listen(3002, () => {
+server.listen(3001, () => {
  console.log("JSON Server is running");
 });
 
